@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sarina&display=swap');
+
+@theme {
+    /* Colors */
+    --black: #232323;
+    --green: #cbfe00;
+    --grey: #e6e6e6;
+    --background: #eaeaea;
+}
+
+a.active {
+    color: var(--green);
+}
+
+.side {
+    @apply md:px-10 px-2
+}
+
+.mainFont {
+    font-family: "Quicksand", sans-serif;
+}
+
+.secondaryFont {
+    font-family: "Sarina", cursive;
+}
