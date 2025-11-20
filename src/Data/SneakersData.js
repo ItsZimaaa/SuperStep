@@ -239,7 +239,10 @@ const SneakersData = {
             specification: "Верх - коровья кожа 64.08%, искусственная кожа 18.07%, текстиль 16.72%, нейлон 1.13%, подкладка - текстиль, низ - резина",
             price: "27 990",
         },
-    ]
+    ],
+    NewShoes: [
+
+    ],
 };
 
 export default SneakersData;

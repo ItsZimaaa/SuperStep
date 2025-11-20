@@ -23,8 +23,10 @@ export default function Navbar() {
                     </ul>
 
                     <div className="md:flex hidden gap-4">
-                        <Search  />
-                        <UserRound />
+                        <Search />
+                        <NavLink to={"input"}>
+                            <UserRound />
+                        </NavLink>
                         <Heart />
                         <Handbag />
                     </div>

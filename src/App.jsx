@@ -4,6 +4,9 @@ import Home from './Pages/Home.jsx'
 import { ContextProvider } from './Context/Context.jsx'
 import ForMen from './Pages/ForMen.jsx'
 import MobileNav from './Components/MobileNav.jsx'
+import Footer from './Components/Footer.jsx'
+import Input from './Components/Input.jsx'
+
 
 export default function App() {
   return (
@@ -16,9 +19,11 @@ export default function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/Дома" element={<Home />}></Route>
             <Route path="/Мужчинам" element={<ForMen />}></Route>
+            <Route path="/input" element={<Input/>}></Route>
           </Routes>
 
           <MobileNav />
+          <Footer />
         </main>
       </BrowserRouter>
     </ContextProvider>
