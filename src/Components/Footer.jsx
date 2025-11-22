@@ -9,7 +9,9 @@ export default function Footer() {
         <footer className="bg-(--black) text-white px-6 md:px-20 py-14 md:mt-20 rounded-t-3xl">
             <div className="container mx-auto side animate-fadeIn">
 
+                {/* UpperPart */}
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-10">
+
                     <div>
                         <h3 className="text-lg font-semibold mb-4">{upper.order.title}</h3>
                         <ul className="space-y-2">
@@ -82,7 +84,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-gray-700 my-10 shadow-[0_0_40px_rgba(0,0,0,0.4)]"></div>
-
+                {/* DownSide */}
                 <div className="flex flex-col md:flex-row items-center md:items-start justify-between text-center md:text-left gap-6">
                     <div className="opacity-90 hover:opacity-100 transition">
                         <h4 className="text-lg font-medium">{down.SocialLinks}</h4>
@@ -118,7 +120,6 @@ export default function Footer() {
                 <p className="text-center text-(--green) text-xs mt-10 opacity-70 hover:opacity-100 transition">
                     © {new Date().getFullYear()} SuperStep. Все права защищены.
                 </p>
-
             </div>
         </footer>
 

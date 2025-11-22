@@ -7,7 +7,7 @@ import { Context } from "../Context/Context.jsx";
 export default function Navbar() {
     const { ToggleMenu, navLinks } = useContext(Context);
     return (
-        <nav className="w-screen z-10 sticky top-0">
+        <nav className="z-10 sticky top-0">
             <div className="bg-(--green) flex justify-center items-center text-(--black) secondaryFont text-[12px]">
                 <h1>New Season!</h1>
             </div>

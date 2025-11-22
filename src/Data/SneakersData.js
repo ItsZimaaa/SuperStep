@@ -23,7 +23,6 @@ import zig1 from "../assets/DataSneakers/Reebok ZIG KINETICA/ZIG KINETICA 1.webp
 import zig2 from "../assets/DataSneakers/Reebok ZIG KINETICA/ZIG KINETICA 2.webp"
 import zig3 from "../assets/DataSneakers/Reebok ZIG KINETICA/ZIG KINETICA 3.webp"
 
-
 const SneakersData = {
     NewBalance: [
         {
@@ -240,9 +239,7 @@ const SneakersData = {
             price: "27 990",
         },
     ],
-    NewShoes: [
-
-    ],
 };
+
 
 export default SneakersData;

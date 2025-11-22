@@ -9,7 +9,7 @@ export default function MobileNav() {
     const { ToggleMenu, navLinks, Open } = useContext(Context);
 
     return (
-        <nav className='md:hidden w-full fixed bottom-0 left-0 right-0 bg-black z-50'>
+        <nav className='md:hidden w-screen fixed bottom-0 left-0 right-0 bg-black z-50'>
             <div className='flex justify-around items-center text-white py-3'>
                 <Menu onClick={ToggleMenu} className="w-6 h-6 cursor-pointer" />
                 <Search className="w-6 h-6 cursor-pointer" />
